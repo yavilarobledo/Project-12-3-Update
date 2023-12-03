@@ -14,7 +14,9 @@ const PoolMaint  = () => {
       <div className="row"/>
         <div className="btn toolbar align-items-center"> <Navbar /></div>
         </nav>
-        <h1>This is the PoolMaintenance page!</h1>
+        <div className="container fs-2 p-3 fw-bold border border-black text-center">
+        This is the PoolMaintenance page!</div>
+      
         <div className="col-sm col mb-4">
         <div className="card h-100" style={{width: 250}}>
           <img src="https://i.postimg.cc/brhV3v77/images-1.jpg" className="card-img-top" alt="..." width="150px" height="150px"/>

@@ -71,7 +71,7 @@ const HomePage = () => {
           <div className="card-body border primary">
             <h5 className="card-title">Plumbing</h5>
             <p className="card-text">Offering full service repair and maintenance services. We help you develop the best plan for your plumbing or drainage needs.
-            <a href="Plumbing" className="btn btn-primary mt-3">Learn More</a></p>
+            <a href="/Plumbing" className="btn btn-primary mt-3">Learn More</a></p>
           </div>
         </div>
       </div>

@@ -13,7 +13,10 @@ const LandScaping = () => {
       <div className="row"/>
         <div className="btn toolbar align-items-center"> <Navbar /></div>
         </nav>
-        <h1>This is the LandScaping page!</h1>
+        <div className="container fs-2 p-3 fw-bold border border-black text-center">
+        This is the Landscaping page!</div>
+        
+        
         
       <div className="col-sm col mb-4">
         <div className="card h-100" style={{width: 250}}>

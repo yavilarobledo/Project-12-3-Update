@@ -13,14 +13,14 @@ const Navbar = () => {
                 <a href="/employeelogin"><button className="btn btn-warning">EmployeeLogin</button></a>
                 <a href="/ourservices" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><button className="btn btn dropdown-toggle btn-warning dropdown">OurServices</button></a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Interior Design</a></li>
-                    <li><a class="dropdown-item" href="#">Flooring</a></li>
-                    <li><a class="dropdown-item" href="#">Plumbing</a></li>
-                    <li><a class="dropdown-item" href="#">Housekeeping</a></li>
-                    <li><a class="dropdown-item" href="#">Landscaping</a></li>
-                    <li><a class="dropdown-item" href="#">Mounting</a></li>
-                    <li><a class="dropdown-item" href="#">Pool Maintenance</a></li>
-                    <li><a class="dropdown-item" href="#">Home Security</a></li>
+                    <li><a class="dropdown-item" href="/interior">Interior Design</a></li>
+                    <li><a class="dropdown-item" href="/floor">Flooring</a></li>
+                    <li><a class="dropdown-item" href="/Plumbing">Plumbing</a></li>
+                    <li><a class="dropdown-item" href="/house">Housekeeping</a></li>
+                    <li><a class="dropdown-item" href="/land">Landscaping</a></li>
+                    <li><a class="dropdown-item" href="/Mounting">Mounting</a></li>
+                    <li><a class="dropdown-item" href="/Pool">Pool Maintenance</a></li>
+                    <li><a class="dropdown-item" href="/security">Home Security</a></li>
                </ul> 
             </div>   
         </nav>
