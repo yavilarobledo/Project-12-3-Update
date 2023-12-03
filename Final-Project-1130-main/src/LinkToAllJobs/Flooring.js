@@ -4,4 +4,4 @@ const Flooring = () => {
     )
   }
   
-  export default Flooring
+  export default Flooring;

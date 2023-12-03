@@ -1,7 +1,7 @@
-const HomeSceurity = () => {
+const HomeSecurity = () => {
     return(
         <h1>This is the HomeSecurity page!</h1>
     )
   }
   
-  export default HomeSceurity
+  export default HomeSecurity
