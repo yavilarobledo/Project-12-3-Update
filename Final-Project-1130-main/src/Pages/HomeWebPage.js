@@ -24,7 +24,7 @@ const HomePage = () => {
          <div className="container fs-2 p-3 fw-bold border border-black text-center">
     Welcome to IndyFIXER</div>
  
-    <div className="container p-3 fw-bold border text-center">
+    <div className="container p-3 fw-bold text-center">
       <p className="fs-3 p-5 fw-bold">At IndyFixer, our mission is to provide exceptional services to our valued customers and communities. 
       We are dedicated to delivering quality workmanship, reliable solutions, and outstanding customer service. 
       With our team of skilled professionals, we always aim to exceed our customers' expectations, tackling each 

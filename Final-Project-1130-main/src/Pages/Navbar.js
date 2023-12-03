@@ -4,7 +4,7 @@ const Navbar = () => {
     return ( 
         <nav className="nav">
            
-            <div className="links btn btn-group-lg" role="group">
+            <div className="links btn btn-group" role="group">
                 <a href="/"><button className="btn btn-warning">Home</button></a>
                 <a href="/create"><button className="btn btn-warning">CreateAccount</button></a>
                 <a href="/customerlogin"><button className="btn btn-warning">CustomerLogin</button></a>
