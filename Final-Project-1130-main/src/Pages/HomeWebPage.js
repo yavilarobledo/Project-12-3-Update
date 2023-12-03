@@ -136,14 +136,18 @@ const HomePage = () => {
   <div className="container border border-black">
     <div className=" text-center row fs-2 p-3"><strong>Reviews</strong></div>
   </div>
-  <div className="row align-items-center fs-3">
-    <Cards />
-</div>
 
+  <div className="container pb-5  ">
+  <div className="row align-items-center pb-5 fs-3">
+    <Cards />
+</div></div>
+
+ 
   <div className="container border border-black">
-    <div className="text-center row fs-2 p-3"><strong>Frequently Asked Questions</strong></div>
-  </div> 
-  <div className="container accordion accordion-flush border" id="questions">            
+    <div className=" text-center row fs-2 p-3"><strong>Frequently Asked Questions</strong></div>
+  </div>
+
+  <div className="container accordion accordion-flush  p-5" id="questions">            
     <div className="accordion-item">
       <h2 className="accordion-header">
           <button 
@@ -194,12 +198,12 @@ Dexterity: Because handymen work with their hands, they need to be agile and dex
     <div className="text-center row fs-2 p-3"><strong>Our Location</strong></div>
   </div> 
 
-  <div className="container border">
+  <div className="container ">
     <div className="row">
-      <div className="col-3">
+      <div className="col-3 p-5">
         <img src="https://i.postimg.cc/wBf3kxrr/Final-Logo-2.png" alt="Logo" width={150} height={100} />
       </div>
-      <div className="col-3">
+      <div className="col-3 p-5">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.2573865243558!2d-86.1415655!3d39.86847220000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b53aef939947b%3A0xee7f56bdfba88f71!2s6205%20Winthrop%20Ave%2C%20Indianapolis%2C%20IN%2046220!5e0!3m2!1sen!2sus!4v1701025006094!5m2!1sen!2sus"
           width={540}
@@ -211,7 +215,7 @@ Dexterity: Because handymen work with their hands, they need to be agile and dex
         />
       </div>
       <div className="col-3"></div>
-      <div className="col">
+      <div className="col p-5">
         <div>
           <strong>IndyFIXER</strong><br></br>        
           6205 Winthrop Avenue<br></br>         
@@ -220,12 +224,15 @@ Dexterity: Because handymen work with their hands, they need to be agile and dex
         </div>
       </div>
     </div>
-              
-
-              
-  </div>
-    
-    
+   
+    </div>
+       <div className="col-sm fs-5 fs-2">           
+    <footer className="bg-black text-white text-center position-relative">
+        <p className="lead pb-3">Copyright &copy; 2023 IndyFIXER</p>
+        <div  class="position-absolute bottom-0 end-0">
+    </div>
+</footer>
+</div>
     </>
         
     )

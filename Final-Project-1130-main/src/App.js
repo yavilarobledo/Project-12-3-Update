@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomeWebPage from './Pages/HomeWebPage';
 import Flooring from './LinkToAllJobs/Flooring';
-import HomeSceurity from './LinkToAllJobs/HomeSecurity';
+import HomeSecurity from './LinkToAllJobs/HomeSecurity';
 import HouseKeeping from './LinkToAllJobs/HouseKeeping';
 import InteriorDesign from './LinkToAllJobs/InteriorDesign';
 import LandScaping from './LinkToAllJobs/Landscaping';
@@ -20,7 +20,7 @@ function App() {
             <Routes>
                <Route path="/" element={<HomeWebPage />}/>
                <Route path="/floor" element={<Flooring />}/>
-               <Route path="/security" element={<HomeSceurity />}/>
+               <Route path="/security" element={<HomeSecurity />}/>
                <Route path="/house" element={<HouseKeeping />}/>
                <Route path="/interior" element={<InteriorDesign />}/>
                <Route path="/land" element={<LandScaping />}/>
