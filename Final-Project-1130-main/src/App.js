@@ -9,6 +9,7 @@ import Mounting from './LinkToAllJobs/Mounting';
 import Plumbing from './LinkToAllJobs/Plumbing';
 import PoolMaint from './LinkToAllJobs/PoolMaint';
 import AddJob from './LinkToAllJobs/AddJob';
+import Consult from './LinkToAllJobs/Consult';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,6 +30,7 @@ function App() {
                <Route path="/Plumbing" element={<Plumbing />}/>
                <Route path="/Pool" element={<PoolMaint />}/>
                <Route path="/addJob" element={<AddJob />}/>
+               <Route path="/Consult" element={<Consult />}/>
             </Routes>
          </div>
       </div>
