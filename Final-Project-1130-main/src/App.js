@@ -8,6 +8,7 @@ import LandScaping from './LinkToAllJobs/Landscaping';
 import Mounting from './LinkToAllJobs/Mounting';
 import Plumbing from './LinkToAllJobs/Plumbing';
 import PoolMaint from './LinkToAllJobs/PoolMaint';
+import AddJob from './LinkToAllJobs/AddJob';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,6 +28,7 @@ function App() {
                <Route path="/Mounting" element={<Mounting />}/>
                <Route path="/Plumbing" element={<Plumbing />}/>
                <Route path="/Pool" element={<PoolMaint />}/>
+               <Route path="/addJob" element={<AddJob />}/>
             </Routes>
          </div>
       </div>

@@ -1,8 +1,17 @@
- import Navbar from "../Pages/Navbar";
- import './Flooring.css'
+import Navbar from "../Pages/Navbar";
+import './Flooring.css'
+import AddJob from './AddJob';
+
 
 
 const Flooring = () => {
+
+  const handleClick = () => {
+    
+    //redirect to add a job form//
+    console.log("Take me to the flooring form");
+  }
+
     return(
 <>
         <nav className="bg-black navbar-dark py-3">
@@ -32,7 +41,7 @@ const Flooring = () => {
           <div className="card-body border primary">
           <h5 className="card-title">Vinyl</h5>
             <h5 className="card-title">
-            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="/AddJob" className="btn btn-primary mt-3" onClick={handleClick}>Add Job</a>
             <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
             </h5>
           </div>
@@ -45,7 +54,7 @@ const Flooring = () => {
           <div className="card-body border primary">
           <h5 className="card-title">Wood</h5>
             <h5 className="card-title">
-            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="/AddJob" className="btn btn-primary mt-3" onClick={handleClick}>Add Job</a>
             <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
             </h5>
           </div>
@@ -58,7 +67,7 @@ const Flooring = () => {
           <div className="card-body border primary">
           <h5 className="card-title">Laminate</h5>
             <h5 className="card-title">
-            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="/AddJob" className="btn btn-primary mt-3" onClick={handleClick}>Add Job</a>
             <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
             </h5>
           </div>
@@ -71,7 +80,7 @@ const Flooring = () => {
           <div className="card-body border primary">
           <h5 className="card-title">Carpet</h5>
             <h5 className="card-title">
-            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="/AddJob" className="btn btn-primary mt-3" onClick={handleClick}>Add Job</a>
             <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
             </h5>
           </div>
@@ -84,7 +93,7 @@ const Flooring = () => {
           <div className="card-body border primary">
           <h5 className="card-title">Tile</h5>
             <h5 className="card-title">
-            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="/AddJob" className="btn btn-primary mt-3" onClick={handleClick}>Add Job</a>
             <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
             </h5>
             </div>
