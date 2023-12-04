@@ -99,6 +99,14 @@ const Flooring = () => {
         </div>
         </div>
 
+        <div className="col-sm fs-5 fs-2">           
+    <footer className="bg-black text-white text-center position-relative">
+        <p className="lead pb-3">Copyright &copy; 2023 IndyFIXER</p>
+        <div  class="position-absolute bottom-0 end-0">
+    </div>
+</footer>
+</div>
+
       
     
 
