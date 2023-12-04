@@ -1,4 +1,5 @@
  import Navbar from "../Pages/Navbar";
+ import './Flooring.css'
 
 
 const Flooring = () => {
@@ -15,18 +16,94 @@ const Flooring = () => {
       </nav>
       
   
-         <div className="container fs-2 p-3 fw-bold border border-black text-center">
-         This is the Flooring page!</div>
-        <div className="col-sm col mb-4">
-        <div className="card h-100" style={{width: 250}}>
+         <div className="container fs-2 p-3 fw-bold text-center">
+         Flooring Services</div>
+        {/*<div className="btn-toolbar"><button>Request Consultation</button><button>Add A Job</button></div> */}
+
+        <div classname="container p-3">
+        <div className="col-sm col p-4 fs-2">
+          <p>IndyFIXER offers flooring services from experienced contractors that are licensed, bonded, and insured.  We are well qualified to meet your needs and deliver 100% satisfaction.  With our job right guarantee you can schedule with confidence and know that our job isn't done until it meets the customer standards. You can customize your service based on these flooring types: </p>
+        
+          <div className="container align-items-lg-stretch">
+    <div className="container row bg-white-subtle p-4 justify-content-around">
+        <div className="col-sm col mb-5">  
+        <div className="card h-100" style={{width: 225}}>
           <img src="https://i.postimg.cc/9Mtrw8CG/Flooring.jpg" className="card-img-top" alt="..." width="150px" height="150px"/>
           <div className="card-body border primary">
-            <h5 className="card-title">Flooring</h5>
-            <p className="card-text">Providing solutions for residential and commercial flooring needs. We've got you covered for complete repairs and installs.
-            <a href="/floor" className="btn btn-primary mt-3">Learn More</a></p>
+          <h5 className="card-title">Vinyl</h5>
+            <h5 className="card-title">
+            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
+            </h5>
           </div>
+          </div>
+          </div>
+
+          <div className="col-sm col mb-5"> 
+          <div className="card h-100" style={{width: 225}}>
+          <img src="https://i.postimg.cc/9Mtrw8CG/Flooring.jpg" className="card-img-top" alt="..." width="150px" height="150px"/>
+          <div className="card-body border primary">
+          <h5 className="card-title">Wood</h5>
+            <h5 className="card-title">
+            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
+            </h5>
+          </div>
+          </div>
+          </div>
+         
+          <div className="col-sm col mb-5"> 
+          <div className="card h-100" style={{width: 225}}>
+          <img src="https://i.postimg.cc/9Mtrw8CG/Flooring.jpg" className="card-img-top" alt="..." width="150px" height="150px"/>
+          <div className="card-body border primary">
+          <h5 className="card-title">Laminate</h5>
+            <h5 className="card-title">
+            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
+            </h5>
+          </div>
+          </div>
+          </div>
+        
+          <div className="col-sm col mb-5"> 
+          <div className="card h-100" style={{width: 225}}>
+          <img src="https://i.postimg.cc/9Mtrw8CG/Flooring.jpg" className="card-img-top" alt="..." width="150px" height="150px"/>
+          <div className="card-body border primary">
+          <h5 className="card-title">Carpet</h5>
+            <h5 className="card-title">
+            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
+            </h5>
+          </div>
+          </div>
+          </div>
+      
+          <div className="col-sm col mb-5"> 
+          <div className="card h-100" style={{width: 225}}>
+          <img src="https://i.postimg.cc/9Mtrw8CG/Flooring.jpg" className="card-img-top" alt="..." width="150px" height="150px"/>
+          <div className="card-body border primary">
+          <h5 className="card-title">Tile</h5>
+            <h5 className="card-title">
+            <a href="#" className="btn btn-primary mt-3">Add Job</a>
+            <a href="#" className="btn btn-primary mt-3">Request Consultation</a>
+            </h5>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+       
+          <p>
+            If you have any questions or would like ideas before you create a job, please request an online consultation to ensure we can handle your request in the most efficient way to meet your needs.  If you are ready to schedule click the add a job tab above and someone will contact you.
+          </p>
         </div>
-      </div>
+        </div>
+
+      
+    
+
+   
+      
       </>
     )
   }
