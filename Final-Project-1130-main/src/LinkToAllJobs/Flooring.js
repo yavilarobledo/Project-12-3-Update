@@ -105,7 +105,7 @@ const Flooring = () => {
           </div>
           </div>
           </div>
-       
+     
           <p>
             If you have any questions or would like ideas before you create a job, please request an online consultation to ensure we can handle your request in the most efficient way to meet your needs.  If you are ready to schedule click the add a job tab above and someone will contact you.
           </p>
@@ -118,13 +118,7 @@ const Flooring = () => {
         <div  className="position-absolute bottom-0 end-0">
     </div>
 </footer>
-</div>
-
-      
-    
-
-   
-      
+</div>           
       </>
     )
   }
